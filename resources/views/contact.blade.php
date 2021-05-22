@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laravel</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- Goggle Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+
+    <!-- Font Css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Animation Css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Styles -->
+    <style>
+        html,
+        body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* .full-height {
+            height: 100vh;
+        } */
+
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .position-ref {
+            position: relative;
+        }
+
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 84px;
+        }
+
+        .links>a {
+            color: #fff;
+            padding: 0 25px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-center position-ref full-height">
+        <div class="top-right links">
+            <a href="{{ route('welcome') }}">home</a>
+            <a href="{{ route('article') }}">article</a>
+            <a href="{{ route('contact') }}">Contact Us</a>
+        </div>
+    </div>
+    <header>
+        <div id="homeFullScreen">
+            <div class="header-text">
+                <h1>Contact Us</h1>
+                <div class="vertical-line"></div>
+            </div><!-- End HeaderText -->
+        </div><!-- End homeFullScreen -->
+    </header>
+
+
+
+    <div class="content">
+        <section class="feature">
+            <div class="container">
+                <div class="row">
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="clearfix"></div><!-- End clearfix -->
+
+                    <div class="col-md-6 col-sm-6 nopadding">
+                        <img src="images/gg.png">
+                    </div><!-- End col-md-6 -->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="feature-box">
+                            <h1>Mathias Leonard Robot</h1>
+                            <h2>085933198659</h2>
+                            <h2>its.leonard21@gmail.com</h2>
+                            <h2>@mr_leonn</h2>
+                        </div>
+                    </div><!-- End col-md-6 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+
+
+
+        <!-- Footer -->
+
+    </div>
+</body>
+
+<script type="text/javascript" src="js/jquery-main.js"></script>
+
+<!-- Bootstrap JS -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- Animation JS -->
+<script type="text/javascript" src="js/wow.min.js"></script>
+
+<!-- Custom JS -->
+<script type="text/javascript" src="js/custom.js"></script>
+
+</html>
